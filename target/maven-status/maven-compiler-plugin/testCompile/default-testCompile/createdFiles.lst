@@ -1,0 +1,4 @@
+com\gs2020\test\runnerclasses\RunnerJunit002.class
+com\gs2020\test\utilities\ReportUtil.class
+com\gs2020\test\stepdefinitions\LoginSteps.class
+com\gs2020\test\runnerclasses\RunnerJunit001.class
