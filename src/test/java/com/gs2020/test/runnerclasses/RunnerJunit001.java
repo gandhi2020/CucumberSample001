@@ -8,8 +8,12 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = "src/test/resources/features001",
                         glue = "com.gs2020.test",
                         monochrome = false,
-                        tags = "@Test01",
-                        plugin = {"pretty", "summary", "json:target/cucumber-reports.json", "html:target/cucumber-reports.html"}
+                        tags = "@test01",
+                        plugin = {"pretty",
+                                    "summary",
+                                    "json:target/cucumber-reports.json",
+                                    "html:target/cucumber-reports.html"
+                                 }
                 )
 public class RunnerJunit001 {
 
